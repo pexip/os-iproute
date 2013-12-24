@@ -1,9 +1,10 @@
 Source: iproute
 Section: net
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Debian iproute maintainers <ah-iproute@debian.org>
-Uploaders: Andreas Henriksson <andreas@fatal.se>, Alexander Wirt <formorer@debian.org>
+XSBC-Pexip-Original-Uploaders: Andreas Henriksson <andreas@fatal.se>, Alexander Wirt <formorer@debian.org>
 Homepage: http://www.linux-foundation.org/en/Net:Iproute2
 Vcs-Browser: http://git.debian.org/?p=collab-maint/pkg-iproute.git
 Vcs-Git: git://git.debian.org/git/collab-maint/pkg-iproute.git
@@ -19,6 +20,7 @@ Build-Depends: texlive-latex-base,
                lynx | lynx-cur,
                bison,
                flex
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: iproute
 Priority: important
